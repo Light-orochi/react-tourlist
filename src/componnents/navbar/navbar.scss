@@ -1,0 +1,21 @@
+nav{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+
+}
+nav ul{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    margin: auto;
+}
+nav ul li a{
+    margin-right: 200px;
+    color: white;
+    
+    text-transform: capitalize;
+    transition: all 0,3s linear;
+    &:hover{color: green;}
+
+}
